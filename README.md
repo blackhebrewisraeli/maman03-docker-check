@@ -1,4 +1,4 @@
- # XV6 Docker Lab Environment
+# XV6 Docker Lab Environment
 
 This repository provides a minimal Docker-based environment for building and running the MIT xv6 operating system inside a reproducible Linux container.
 
