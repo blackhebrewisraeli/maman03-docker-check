@@ -1,7 +1,6 @@
 # File: Dockerfile
 # Description: Docker environment for building and running xv6.
-# Student: Shimon Esterkin
-# ID: 207972258
+# Maintainer: Shimon Esterkin
 
 FROM ubuntu:16.04
 

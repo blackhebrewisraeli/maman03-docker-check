@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+__MACOSX/
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Build artifacts
+*.o
+*.d
+*.asm
+*.sym
+kernel
+fs.img
+xv6.img
+mkfs
+bootblock
+entryother
+initcode
+initcode.out
+
+# Archives and submissions
+*.zip
+*.docx
+*.pdf
