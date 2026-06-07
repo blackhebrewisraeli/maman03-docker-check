@@ -1,15 +1,22 @@
-# macOS
+# macOS files
 .DS_Store
 __MACOSX/
 
 # Editor files
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # Logs
 *.log
 
-# Build artifacts
+# Docker and temporary files
+tmp/
+temp/
+.cache/
+
+# xv6 build artifacts
 *.o
 *.d
 *.asm
@@ -22,8 +29,12 @@ bootblock
 entryother
 initcode
 initcode.out
+user/_*
 
-# Archives and submissions
+# Archives and submitted documents
 *.zip
+*.tar
+*.tar.gz
+*.doc
 *.docx
 *.pdf
